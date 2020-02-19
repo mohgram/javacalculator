@@ -22,6 +22,7 @@ class Calculator {
     } 
   }  
   public void aPlus(){
+    System.out.println("Please enter the first number.");
     Scanner inp = new Scanner(System.in);
     int num1 = inp.nextInt();
     System.out.println("And the second number.");
@@ -39,6 +40,7 @@ class Calculator {
     }  
 } 
   public void aMinus(){
+    System.out.println("Please enter the first number.");
     Scanner inp = new Scanner(System.in);
     int num1 = inp.nextInt();
     System.out.println("And the second number.");
@@ -56,7 +58,8 @@ class Calculator {
     }
   }
  public void aTimes(){
-   Scanner inp = new Scanner(System.in);
+    System.out.println("Please enter the first number.");
+    Scanner inp = new Scanner(System.in);
     int num1 = inp.nextInt();
     System.out.println("And the second number.");
     int num2 = inp.nextInt();
@@ -73,7 +76,8 @@ class Calculator {
     }
   }
  public void aDivide(){
-   Scanner inp = new Scanner(System.in);
+    System.out.println("Please enter the first number.");
+    Scanner inp = new Scanner(System.in);
     int num1 = inp.nextInt();
     System.out.println("And the second number.");
     int num2 = inp.nextInt();
